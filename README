@@ -1,0 +1,27 @@
+The E-learning System Project is a fully developed website that provides students with online courses to enroll. The students will be required to sign up and log in to the system. After signing in, they can purchase the courses available on the website by clicking on the enroll button. The website is integrated with Paytm payment gateway to make payments. The courses purchased by the student will be made available to them after successful payment.
+
+The project consists of several pages, each serving a specific purpose.
+
+-->Home Page : This page is the first page the user sees after visiting the website. It has a navbar that consists of links to the Home page, Courses page, Payment Status page, Login page, Signup page, Feedback page, and Contact page. The Home page has several sections that include a Welcome section, Popular Courses section, Contact Us section, Students Feedback section, and three columns containing information about the website, its categories, and contact details. The footer of the page contains copyright information and a button for the admin panel.
+
+-->Courses Page : This page displays the list of courses available on the website in the form of bootstrap cards. The courses are displayed with an enroll button for the students to sign up for the courses. The page has a header banner and a footer that is the same as the one on the Home page.
+
+-->My Profile Page : This page takes the user to the student profile panel. The panel displays the profile picture of the student and a menu containing links to the student`s profile, their enrolled courses, feedback section, password change section, and logout button. The profile section displays the student`s personal information such as their name, email, occupation, and provides an option to upload a profile picture and update the information. The enrolled courses section displays the courses the student has purchased and enrolled in, and provides a watch course button for the student to access the course. The feedback section allows the student to provide feedback for the courses.
+
+## -->Contact us: through a simple mail transfer protocol implemented on the index page of the projects
+
+credentials for:
+-student:
+email: student@examples.com
+password: student
+-admin:
+email: admin@admin.com
+password: admin
+
+---
+
+How to install the project?
+
+- first create a database named: lms_db
+- next run the creation queries found in database files in the project
+- last open via local server the website and good to go
